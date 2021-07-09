@@ -79,8 +79,8 @@
 
 ## Additional info
 
-**This was the first Web-site i made.<p> 
-it was made by me alone Luis Octavio Galesso Seror, using only pure HTML, CSS, JS, Jquery and bootstrap. Whitout any angular or react like framework's to increase performance**
+**This was the first Web-site I made.<p> 
+It was made by me alone Luis Octavio Galesso Seror, using only pure HTML, CSS, JS, Jquery and bootstrap. Whitout any angular or react like framework's to increase performance**
 
 **this code its a little messy but it was my first web-site**
 
