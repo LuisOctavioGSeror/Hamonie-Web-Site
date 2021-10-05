@@ -1,0 +1,465 @@
+/* Style all font awesome icons */
+html  {
+  scroll-behavior: smooth !important;
+}
+
+body{
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.modal-content {
+  background-color: rgb(235, 223, 201);
+
+}
+
+.loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: lightgray;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.linha{
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
+}
+
+.background {
+ /*
+  background-color: rgb(196, 202, 196);
+ */
+  background-color: rgb(235, 223, 201);
+  
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! rgb(196, 202, 196); */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.cbg {
+  background-color: #ffffff;
+}
+
+h4, h1, h2 {
+  font-family: 'Dancing Script', cursive;
+
+}
+
+
+.navbarrr{
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  -webkit-transition: all 0.8s ease;
+   transition: all 0.8s ease;
+}
+
+
+.navbarrr h4{
+  opacity: 0.7;
+  font-size: 33px;
+}
+
+.car{
+  margin-top: -180px;
+}
+
+.scrolled{
+ /* 
+  background-color: rgba(53, 59, 53, 0.85);
+ */
+  background-color: rgba(48, 65, 48, 0.85);
+  backdrop-filter: blur(8px);
+
+}
+
+
+
+nav ul li a h4{
+  color: rgb(235, 223, 201);
+  font-size: 34px;
+  -webkit-transition: all 0.8s ease;
+   transition: all 0.8s ease;
+}
+
+nav ul li a h4:hover{
+  font-size: 42px;
+  opacity: 1;
+}
+
+.scrolled2:hover{
+  color: rgb(221, 127, 111);
+}
+
+.active-item{
+  color: rgb(221, 127, 111);
+}
+
+h1{
+  padding-left: 5%;
+  padding-top: 5%;
+  font-size: 65px;
+}
+
+h2{
+  padding-left: 5%;
+}
+.col-5 img{
+  padding-top: 5%;
+  margin-left: 20%;
+}
+
+.container{
+  /*
+  background-color: rgb(196, 202, 196);
+ */
+  background-color: rgb(235, 223, 201);
+ 
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+}
+
+h5{
+  font-size: 21px;
+  font-family: sans-serif;
+}
+
+.service img{
+  width: 100%;
+  object-fit: cover;
+  -webkit-transition: all 0.8s ease;
+   transition: all 0.8s ease;
+}
+
+.service{
+  margin-left: 20%;
+}
+
+.service button{
+  margin-left: 31%;
+}
+
+
+.service img{
+  margin-right: 10%;
+}
+
+.nossos_profissionais img{
+  width: 100%;
+  object-fit: cover;
+}
+
+
+@media only screen and (min-width: 576px){
+
+#sobre_nos h5{
+  text-align: justify;
+  text-justify: inter-word; 
+}
+
+.social-icon p{
+  margin-left: 40%;
+}
+
+#localização h1{
+    margin-left: 30%;
+  } 
+#localização h2{
+  font-size: 30px;
+}   
+  
+  #esteticafacialh5{
+    padding-left: 24%;
+
+  }
+
+  #esteticacorporalh5{
+    padding-left: 20%;
+  }
+
+  #esteticacapilarh5{
+    padding-left: 23%;
+  }
+
+  #micropigmentaçãoh5{
+    padding-left: 17%;
+  }
+
+  #pilatesh5{
+    padding-left: 38%;
+  }
+
+  #salaodebelezah5{
+    padding-left: 20%;
+  }
+
+  #barbeariah5{
+    padding-left: 33%;
+  }
+
+  #depilaçãoh5{
+    padding-left: 32%;
+  }
+
+  #podologiah5{
+    padding-left: 32%;
+  }
+
+  #terapiash5{
+    padding-left: 35%;
+  }
+
+  #lashesh5{
+    padding-left: 20%;
+  }
+
+  #psicologah5{
+    padding-left: 33%;
+  }
+
+  #bistroh5{
+    padding-left: 40%;
+  }
+
+  #tatuagensh5{
+    padding-left: 32%;
+  }
+
+  #nutricionistah5{
+    padding-left: 28%;
+  }
+  
+  #harmonizaçãoh5{
+    padding-left: 14%;
+  }
+
+  .carrouselimage {
+    height: 800px;
+    width: 900px;
+    object-fit: cover;
+  }
+
+  .abuton{
+    margin-left: 45%; 
+    margin-top: 5%;
+  }
+
+}
+@media only screen and (max-width: 576px){
+  .NossosProfissionais{
+    margin-left: 5%;
+  }
+
+  #sobre_nos h5, #Agendamento h5{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 10px;
+    padding-right: 10px; 
+  }
+
+  .service .modal-body img{
+    margin-left: 15%;
+  }
+  .NossosProfissionais img{
+    margin-top: 20%
+  }
+
+  h1{
+    font-size: 50px;
+  }
+  #sobre_nos h1{
+    margin-left: 20%;
+    font-size: 50px;
+  }
+
+  #Agendamento h1{
+    margin-left: 10%;
+  }
+
+  #localização h1{
+  padding-left: 22%;
+  }
+
+  .service img{
+    width: 70%;
+  }
+
+  .service button{
+    margin-left: 50%;
+  }
+
+  #nossos_serviços button{
+    margin-left: 10%;
+    margin-bottom: 20%;
+
+  }
+
+  nav img{
+    margin-left: 35%;
+    margin-bottom: 5%;
+  }
+
+  .abuton{
+    margin-left: 10%;
+  }
+
+  .navbarrr img{
+    width: 80px;
+    height: 80px;
+  }
+
+  .social-icon p{
+    margin-left: 15%;
+  }
+
+  #pilatesh5{
+    padding-left: 19%;
+  }
+
+  #barbeariah5{
+    padding-left: 12%;
+  }
+
+  #depilaçãoh5{
+    padding-left: 12%;
+  }
+
+  #podologiah5{
+    padding-left: 12%;
+  }
+
+  #terapiash5{
+    padding-left: 17%;
+  }
+
+  #lashesh5{
+    padding-right: 12%;
+  }
+
+  #psicologah5{
+    padding-left: 13%;
+  }
+
+  #bistroh5{
+    padding-left: 23%;
+  }
+
+  #tatuagensh5{
+    padding-left: 11%;
+  }
+
+  #nutricionistah5{
+    padding-left: 5%;
+  }
+
+
+  #localização h2{
+    font-size: 20px;
+  }   
+
+  .carrouselimage {
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .abuton{
+    margin-left:37%; 
+    margin-top: 5%;
+  }
+
+}
+
+.btn {
+  background-color: rgb(68, 100, 65); /* Green */
+  -webkit-transition: all 0.8s ease;
+   transition: all 0.8s ease;
+}
+
+.buttons-group .btn{
+  margin-left: 5%;
+}
+
+#image1 :hover{
+  opacity: 0;
+}
+
+.social-icon a img{
+  height: 64px;
+  width: 64px;
+  margin-left: 3%;
+}
+
+
+.agendamento img{
+  margin-left: 5%;
+  height: 76px;
+  width: 76px;
+  object-fit: cover;
+}
+
+.dropdown li{
+  background-color: rgba(48, 65, 48, 0.85);
+  backdrop-filter: blur(4px);
+}
+
+.dropdown h5{
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown-item h5{
+  color:  rgb(230, 218, 216);
+}
+
+.dropdown-menu :hover{
+  color: black;
+}
+
+#localização h2{
+  font-family: initial;
+}
+
+
+
+/*.agendamento a :hover{
+  height: 150px;
+  width: 150px;
+}
+*/
+
+/* The animation code 
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* The element to apply the animation to 
+.anin:hover {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+*/
