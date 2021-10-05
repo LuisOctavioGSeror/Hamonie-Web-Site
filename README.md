@@ -29,7 +29,7 @@
 
 </div>
 
-![harmonie](screenshot/harmonie.png)
+![harmonie](screenshot/harmonie_october.png)
 
 <div style = "padding-left: 270px; margin-top: 70px;">
 
